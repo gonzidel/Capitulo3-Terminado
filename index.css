@@ -1,0 +1,403 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  background-image: url(./puntitos.png);
+  width: 100%;
+  height: 616px;
+  background-size: cover;
+  position: relative;
+}
+@media (min-width: 600px) {
+  .main {
+    background-image: url(./puntos.png);
+  }
+}
+.header {
+  padding: 29px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo1 {
+  width: 65px;
+  margin: -2px -5px;
+}
+@media (min-width: 600px) {
+  .logo1 {
+    width: 120px;
+    margin: 0 0 0 50px;
+  }
+}
+.menu {
+  width: 36px;
+  height: 32px;
+}
+.linea {
+  width: 36px;
+  height: 6px;
+  background-color: black;
+  margin: 7px;
+}
+@media (min-width: 600px) {
+  .linea {
+    display: none;
+  }
+}
+.menu-desk {
+  display: none;
+}
+@media (min-width: 600px) {
+  .menu-desk {
+    font-family: "Roboto";
+    display: flex;
+    margin: 0 auto;
+    width: 428px;
+    font-size: 24px;
+    margin: 40px 0 0 -450px;
+  }
+}
+.menu-desple {
+  display: none;
+}
+@media (min-width: 600px) {
+  .menu-desple {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+.datos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .datos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.letras {
+  margin: 30px auto;
+  width: 291px;
+  height: 96px;
+}
+@media (min-width: 600px) {
+  .letras {
+    margin: 80px 0 0 80px;
+  }
+}
+.bienvenidos {
+  font-family: "Open Sans";
+  font-size: 48px;
+  text-align: center;
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .bienvenidos {
+    text-align: left;
+  }
+}
+.contenedor-de-foto {
+  width: 318px;
+  height: 300px;
+  margin: 48px auto 0 55px;
+}
+@media (min-width: 600px) {
+  .contenedor-de-foto {
+    margin: 37px 140px 0 0;
+  }
+}
+.foto {
+  width: 318px;
+}
+@media (min-width: 600px) {
+  .foto {
+    width: 435px;
+  }
+}
+.seccion-descrip {
+  width: 100%;
+  height: 538px;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .contenedor-de-texto {
+    width: 833px;
+    height: 237px;
+    margin: auto;
+  }
+}
+.textos {
+  display: flex;
+  padding: 55px 52px;
+  color: white;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .textos {
+    width: 532px;
+    height: 237px;
+    margin: -50px 0px 0px 325px;
+  }
+}
+.titu-desc {
+  font-family: "Open Sans";
+  font-size: 32px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+}
+@media (min-width: 600px) {
+  .titu-desc {
+    margin: 0 0 -10px;
+  }
+}
+.caja1 {
+  margin: 41px auto 57px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descp {
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 0 auto;
+  width: 312px;
+}
+@media (min-width: 600px) {
+  .descp {
+    margin: 0 0;
+    width: 450px;
+  }
+}
+.caja {
+  margin: -50px auto;
+}
+@media (min-width: 600px) {
+  .caja {
+    width: 211px;
+    height: 211px;
+    margin: -180px 0 0 90px;
+  }
+}
+.chek {
+  width: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .chek {
+    width: 211px;
+  }
+}
+.seccion-servi {
+  width: 100%;
+  height: 1375px;
+  background-color: #fafafa;
+  padding: 69px 52px;
+}
+@media (min-width: 600px) {
+  .seccion-servi {
+    width: 100%;
+    height: 604px;
+  }
+}
+.texto1 {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .titu-desc {
+    margin: 0 auto;
+  }
+}
+.cosas {
+  height: 312px;
+  width: 271px;
+  display: flex;
+  flex-direction: column;
+  margin: 90px auto 66px auto;
+  justify-content: space-between;
+}
+@media (min-width: 600px) {
+  .contenedor-de-cosas {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.im {
+  width: 138px;
+  margin: 0 auto;
+}
+.subt {
+  font-family: "Roboto";
+  margin: 0 auto;
+}
+.desc {
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: center;
+}
+.seccion-chat {
+  width: 100%;
+  height: 660px;
+  background-color: #141414;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+.todo{
+  display: flex;
+  width: 724px;
+  flex-direction: row;
+  margin: 116px;
+}  
+}
+.texto {
+  color: white;
+  display: flex;
+  font-family: "Open Sans";
+  margin: 64px auto 50px;
+}
+.titu-desc2,
+.titu-desc {
+  font-size: 35px;
+}
+.titu-desc2{
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .titu-desc2{
+    margin: -75px auto;
+    font-size: 48px;
+  }
+}
+.contenedor {
+  height: 414px;
+  display: grid;
+  gap: 40px;
+}
+.label {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: white;
+  display: block;
+}
+.input-tex,
+.textarea {
+  font-family: "Roboto";
+  border: #2c2c2c;
+  font-size: 13px;
+  border-radius: 5px;
+  display: block;
+  width: 335px;
+  padding: 10px;
+}
+.textarea {
+  height: 113px;
+}
+.button {
+  font-family: "Roboto";
+  width: 335px;
+  height: 45px;
+  background-color: #ffd953;
+  font-size: 16px;
+  padding: 13px;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+.seccion-datos {
+  width: 100%;
+  height: 493px;
+  bottom: #DBDBDB;
+}
+@media (min-width: 600px) {
+  .seccion-datos{
+    height: 346px;
+    background-image: url(./puntos.png);
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.logo {
+    height: 130px;
+  width: 100px;
+  margin: 53px 0 auto 12px;
+}
+@media (min-width: 600px) {
+.logo{
+  height: 180px;
+  width: 100px;
+  margin: auto 0 auto 60px;
+  display: flex;
+  flex-direction: column;
+}
+}
+.simb {
+  height: 110px;
+  margin: 0 auto;
+}
+@media (min-width: 600px) {
+  .simb {
+  height: 130px;
+  margin: 0 auto ;
+  }
+}
+.regis {
+  font-family: "Roboto";
+  font-size: 13px;
+  margin: -15px auto auto 20px ;
+  width: 100px;
+}
+@media (min-width: 600px) {
+  .regis {
+  font-size: 12px;
+  width: 100px;
+  margin: -30px auto auto 20px ;
+  }
+}
+.logos {
+  display: flex;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 79px 0 0 14px;
+}
+@media (min-width: 600px) {
+  .logos {
+    margin: auto 250px auto ;
+  }
+}
+.simbolo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 10px;
+}
+.tamaño {
+  height: 29px;
+  width: 29px;
+  margin: 10px;
+}
+.redes {
+  margin: 17px 0 0;
+}
+.redes1 {
+  margin: 28px 0 0;
+}
+.redes2 {
+  margin: 31px 0 0;
+}
+.redes3 {
+  margin: 30px 0 0;
+}
